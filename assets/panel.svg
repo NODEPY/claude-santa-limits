@@ -1,0 +1,88 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 400" width="320" height="400" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#1b2a4e"/><stop offset="1" stop-color="#34508a"/>
+    </linearGradient>
+    <pattern id="cane" width="10" height="14" patternUnits="userSpaceOnUse" patternTransform="skewX(-30)">
+      <rect width="4" height="14" fill="#ffffff" opacity="0.35"/>
+    </pattern>
+  </defs>
+  <rect width="320" height="400" rx="18" fill="url(#sky)"/>
+  <circle cx="20" cy="-10" r="2" fill="#fff" opacity="0.85">
+          <animate attributeName="cy" from="-10" to="400" dur="7s" begin="0s" repeatCount="indefinite"/>
+          <animate attributeName="cx" values="20;28;20" dur="3.5s" repeatCount="indefinite"/>
+        </circle><circle cx="60" cy="-10" r="1.5" fill="#fff" opacity="0.85">
+          <animate attributeName="cy" from="-10" to="400" dur="9s" begin="-1.3s" repeatCount="indefinite"/>
+          <animate attributeName="cx" values="60;68;60" dur="4.5s" repeatCount="indefinite"/>
+        </circle><circle cx="95" cy="-10" r="2.5" fill="#fff" opacity="0.85">
+          <animate attributeName="cy" from="-10" to="400" dur="6s" begin="-2.6s" repeatCount="indefinite"/>
+          <animate attributeName="cx" values="95;103;95" dur="3s" repeatCount="indefinite"/>
+        </circle><circle cx="140" cy="-10" r="1.5" fill="#fff" opacity="0.85">
+          <animate attributeName="cy" from="-10" to="400" dur="11s" begin="-3.9000000000000004s" repeatCount="indefinite"/>
+          <animate attributeName="cx" values="140;148;140" dur="5.5s" repeatCount="indefinite"/>
+        </circle><circle cx="180" cy="-10" r="2" fill="#fff" opacity="0.85">
+          <animate attributeName="cy" from="-10" to="400" dur="8s" begin="-5.2s" repeatCount="indefinite"/>
+          <animate attributeName="cx" values="180;188;180" dur="4s" repeatCount="indefinite"/>
+        </circle><circle cx="225" cy="-10" r="1.5" fill="#fff" opacity="0.85">
+          <animate attributeName="cy" from="-10" to="400" dur="10s" begin="-6.5s" repeatCount="indefinite"/>
+          <animate attributeName="cx" values="225;233;225" dur="5s" repeatCount="indefinite"/>
+        </circle><circle cx="262" cy="-10" r="2.5" fill="#fff" opacity="0.85">
+          <animate attributeName="cy" from="-10" to="400" dur="7s" begin="-7.800000000000001s" repeatCount="indefinite"/>
+          <animate attributeName="cx" values="262;270;262" dur="3.5s" repeatCount="indefinite"/>
+        </circle><circle cx="300" cy="-10" r="2" fill="#fff" opacity="0.85">
+          <animate attributeName="cy" from="-10" to="400" dur="9s" begin="-9.1s" repeatCount="indefinite"/>
+          <animate attributeName="cx" values="300;308;300" dur="4.5s" repeatCount="indefinite"/>
+        </circle><circle cx="40" cy="-10" r="1" fill="#fff" opacity="0.85">
+          <animate attributeName="cy" from="-10" to="400" dur="12s" begin="-10.4s" repeatCount="indefinite"/>
+          <animate attributeName="cx" values="40;48;40" dur="6s" repeatCount="indefinite"/>
+        </circle><circle cx="245" cy="-10" r="1" fill="#fff" opacity="0.85">
+          <animate attributeName="cy" from="-10" to="400" dur="13s" begin="-11.700000000000001s" repeatCount="indefinite"/>
+          <animate attributeName="cx" values="245;253;245" dur="6.5s" repeatCount="indefinite"/>
+        </circle>
+  <ellipse cx="160" cy="392" rx="170" ry="22" fill="#eef4ff"/>
+
+  <!-- Claude body -->
+  <g>
+    <animateTransform attributeName="transform" type="translate" values="0 0;0 -3;0 0" dur="2.4s" repeatCount="indefinite"/>
+    <rect x="108" y="96" width="104" height="92" rx="10" fill="#d97757"/>
+    <rect x="96" y="128" width="14" height="22" rx="4" fill="#d97757"/>
+    <rect x="210" y="128" width="14" height="22" rx="4" fill="#d97757"/>
+    <!-- eyes -->
+    <rect x="134" y="122" width="10" height="16" rx="3" fill="#2b1a10">
+      <animate attributeName="height" values="16;16;2;16;16" keyTimes="0;0.9;0.93;0.96;1" dur="4s" repeatCount="indefinite"/>
+    </rect>
+    <rect x="176" y="122" width="10" height="16" rx="3" fill="#2b1a10">
+      <animate attributeName="height" values="16;16;2;16;16" keyTimes="0;0.9;0.93;0.96;1" dur="4s" repeatCount="indefinite"/>
+    </rect>
+    <ellipse cx="128" cy="150" rx="7" ry="4" fill="#f2a08a" opacity="0.8"/>
+    <ellipse cx="192" cy="150" rx="7" ry="4" fill="#f2a08a" opacity="0.8"/>
+    <path d="M150 152 Q160 160 170 152" stroke="#2b1a10" stroke-width="3" fill="none" stroke-linecap="round"/>
+    <!-- Santa hat -->
+    <path d="M110 100 C 120 40, 175 22, 230 58 L 214 72 C 190 56, 160 60, 210 100 Z" fill="#d42a2a"/>
+    <circle cx="236" cy="60" r="12" fill="#fff"/>
+    <rect x="100" y="88" width="120" height="20" rx="10" fill="#fff"/>
+    <!-- arms holding the sign -->
+    <rect x="70" y="170" width="16" height="44" rx="6" fill="#d97757"/>
+    <rect x="234" y="170" width="16" height="44" rx="6" fill="#d97757"/>
+  </g>
+
+  <!-- sign -->
+  <rect x="34" y="200" width="252" height="176" rx="12" fill="#8b5a2b"/>
+  <rect x="42" y="208" width="236" height="160" rx="8" fill="#fbf3e2"/>
+  <rect x="66" y="196" width="24" height="16" rx="5" fill="#d97757"/>
+  <rect x="230" y="196" width="24" height="16" rx="5" fill="#d97757"/>
+  <text x="160" y="232" font-size="16" font-weight="800" fill="#b3261e" text-anchor="middle">🎄 Claude Limits 🎄</text>
+  
+    <text x="54" y="258" font-size="15" font-weight="700" fill="#4a2a12">5-hour</text>
+    <text x="266" y="258" font-size="15" font-weight="800" fill="#2e9e5b" text-anchor="end">34%</text>
+    <rect x="54" y="266" width="212" height="14" rx="7" fill="#e9dcc4" stroke="#b89466" stroke-width="1"/>
+    <rect x="54" y="266" width="72" height="14" rx="7" fill="#2e9e5b"/>
+    <rect x="54" y="266" width="72" height="14" rx="7" fill="url(#cane)"/>
+    <text x="54" y="296" font-size="11" fill="#7a5a3a">resets in 2h 15m</text>
+    <text x="54" y="312" font-size="15" font-weight="700" fill="#4a2a12">Weekly</text>
+    <text x="266" y="312" font-size="15" font-weight="800" fill="#ff7a2f" text-anchor="end">62%</text>
+    <rect x="54" y="320" width="212" height="14" rx="7" fill="#e9dcc4" stroke="#b89466" stroke-width="1"/>
+    <rect x="54" y="320" width="131" height="14" rx="7" fill="#ff7a2f"/>
+    <rect x="54" y="320" width="131" height="14" rx="7" fill="url(#cane)"/>
+    <text x="54" y="350" font-size="11" fill="#7a5a3a">resets in 3d 4h</text>
+</svg>

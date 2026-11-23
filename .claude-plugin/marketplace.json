@@ -1,0 +1,11 @@
+{
+  "name": "santa-limits",
+  "owner": { "name": "NODEPY" },
+  "plugins": [
+    {
+      "name": "santa-limits",
+      "source": "./",
+      "description": "A festive Claude in a Santa hat holding a sign with your 5-hour and weekly usage limits."
+    }
+  ]
+}
