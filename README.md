@@ -1,5 +1,7 @@
 <div align="center">
 
+<img src=".claude-plugin/icon.png" alt="Santa Limits icon" width="128">
+
 # 🎅 Santa Limits
 
 **A festive Claude Code mod: Claude in a Santa hat, holding a sign with your usage limits.**

@@ -2,10 +2,19 @@
   "name": "santa-limits",
   "version": "1.0.0",
   "description": "A festive Claude in a Santa hat holding a sign with your 5-hour and weekly usage limits.",
-  "author": { "name": "NODEPY" },
+  "icon": "./.claude-plugin/icon.png",
+  "author": {
+    "name": "NODEPY"
+  },
   "homepage": "https://github.com/NODEPY/claude-santa-limits",
   "repository": "https://github.com/NODEPY/claude-santa-limits",
   "license": "MIT",
-  "keywords": ["usage", "rate-limits", "christmas", "santa", "status"],
+  "keywords": [
+    "usage",
+    "rate-limits",
+    "christmas",
+    "santa",
+    "status"
+  ],
   "types": "./types/index.d.ts"
 }
